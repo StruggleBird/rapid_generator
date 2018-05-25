@@ -1,0 +1,5 @@
+/target/
+/generator-output/
+.classpath
+.project
+.settings
