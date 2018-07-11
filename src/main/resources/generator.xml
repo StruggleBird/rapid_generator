@@ -10,7 +10,7 @@
     <entry key="author">Ternence</entry>
     <!-- 对应修改下Constants.Mybatis.NAMESPACE_PREFIX -->
     <entry key="namespace_prefix">com.globalegrow.mybatis</entry>
-    <entry key="basepackage">com.globalegrow.brainkeeper.admin</entry>
+    <entry key="basepackage">com.globalegrow.brainkeeper.api</entry>
     <entry key="mongo_basepackage">${basepackage}</entry>
     <entry key="domainpackage">${basepackage}.domain</entry>
     <!-- 定义组名 这里不需要添加值  只做定义-->
@@ -49,7 +49,7 @@
     <entry key="java_typemapping.java.math.BigDecimal">Double</entry>
         
     <!-- Mysql -->
-    <entry key="jdbc.url">jdbc:mysql://192.168.6.176:3306/service_governance?useUnicode=true&amp;characterEncoding=UTF-8&amp;useInformationSchema=true</entry>
+    <entry key="jdbc.url">jdbc:mysql://10.60.46.206:3306/service_governance?useUnicode=true&amp;characterEncoding=UTF-8&amp;useInformationSchema=true</entry>
     <entry key="jdbc.driver">com.mysql.jdbc.Driver</entry>
     
 
