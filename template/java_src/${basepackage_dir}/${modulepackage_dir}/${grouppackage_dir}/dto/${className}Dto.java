@@ -13,7 +13,7 @@ package ${basepackage}${modulepackage}${table.ownerSynonymName}.dto;
 <#if hasDateType>
 import java.util.Date;
 </#if>
-import com.globalegrow.brainkeeper.admin.common.dto.BaseDto;
+import com.globalegrow.brainkeeper.common.dto.BaseDto;
 
 
 <@classComment value="Dto 对象"/>

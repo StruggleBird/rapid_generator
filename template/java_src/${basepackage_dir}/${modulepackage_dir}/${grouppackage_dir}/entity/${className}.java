@@ -13,7 +13,7 @@ package ${basepackage}${modulepackage}${table.ownerSynonymName}.entity;
 <#if hasDateType>
 import java.util.Date;
 </#if>
-import com.globalegrow.brainkeeper.admin.common.entity.BaseEntity;
+import com.globalegrow.brainkeeper.common.entity.BaseEntity;
 
 <@classComment value="实体类"/>
 public class ${className} extends BaseEntity {

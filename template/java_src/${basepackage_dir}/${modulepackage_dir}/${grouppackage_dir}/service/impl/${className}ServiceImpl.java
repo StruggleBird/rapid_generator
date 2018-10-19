@@ -10,12 +10,12 @@ import java.util.Map;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.globalegrow.brainkeeper.admin.util.BeanUtils;
-import com.globalegrow.brainkeeper.admin.util.CollectionUtils;
+import com.globalegrow.brainkeeper.util.BeanUtils;
+import com.globalegrow.brainkeeper.util.CollectionUtils;
 import com.github.pagehelper.PageInfo;
 import com.github.pagehelper.PageHelper;
-import com.globalegrow.brainkeeper.admin.common.dto.PageResult;
-import com.globalegrow.brainkeeper.admin.common.dto.PageRequest;
+import com.globalegrow.brainkeeper.common.dto.PageRequest;
+import com.globalegrow.brainkeeper.common.dto.PageResult;
 import ${basepackage}${modulepackage}${table.ownerSynonymName}.entity.${className};
 import ${basepackage}${modulepackage}${table.ownerSynonymName}.dto.${className}Dto;
 import ${basepackage}${modulepackage}${table.ownerSynonymName}.service.${className}Service;

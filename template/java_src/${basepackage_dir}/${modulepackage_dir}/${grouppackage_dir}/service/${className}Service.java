@@ -6,8 +6,8 @@ package ${basepackage}${modulepackage}${table.ownerSynonymName}.service;
 
 import java.util.List;
 import java.util.Map;
-import com.globalegrow.brainkeeper.admin.common.dto.PageResult;
-import com.globalegrow.brainkeeper.admin.common.dto.PageRequest;
+import com.globalegrow.brainkeeper.common.dto.PageRequest;
+import com.globalegrow.brainkeeper.common.dto.PageResult;
 
 import ${basepackage}${modulepackage}${table.ownerSynonymName}.dto.${className}Dto;
 

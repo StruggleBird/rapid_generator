@@ -24,7 +24,7 @@ public class GeneratorTest {
     String outRoot = GeneratorProperties.getRequiredProperty("outRoot");
     outRoot += "/java_src/";
     String basePackage = GeneratorProperties.getRequiredProperty("basepackage").replace(".", "/");
-    Runtime.getRuntime().exec("nautilus " + outRoot + basePackage);
+    Runtime.getRuntime().exec("explorer.exe " + outRoot + basePackage);
   }
 
   /**
@@ -34,7 +34,7 @@ public class GeneratorTest {
    */
   @Test
   public void testSingleTableGenerator() throws Exception {
-    String tables = "trace_dubbo_service";
+    String tables = "alarm_fault";
     String moduleName = "";
     generator.generateByTable(tables, moduleName, TEMPLATE);
   }
@@ -46,7 +46,7 @@ public class GeneratorTest {
    */
   @Test
   public void testMultipleTableGenerator() throws Exception {
-    String[] tables = new String[] {"service"};
+    String[] tables = new String[] {"app_topology"};
     String moduleName = "brainkeeper";
     generator.generateByTables(tables, moduleName, TEMPLATE);
   }
